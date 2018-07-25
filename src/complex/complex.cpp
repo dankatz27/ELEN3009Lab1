@@ -18,7 +18,7 @@ int main()
 			<< " + " << answer.imag() << "j" 
 			<< endl	<< endl;
 
-	// answer++;
-
+	// answer++; // The program is unable to to increment a value of type complex<float>.
+                 // It does not make sense to increment a complex type as the increment is not defined as real or imaginary. 
 	return 0;
 }
